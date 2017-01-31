@@ -12,10 +12,6 @@ include("inc/data.php");
 // pour s'assurer qu'on a accès aux données :
 // print_r($products);
 include("templates/header.php");
-?>
-<main>
-    <p>Ici se tiendra la liste de mes articles !</p>
-</main>
-<?php
+include("templates/products-list.php");
 include("templates/footer.php");
 ?>
