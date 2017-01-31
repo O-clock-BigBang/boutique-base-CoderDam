@@ -9,7 +9,10 @@
         <hr>
         <article class="product">
             <h2><?= $product["title"] ?></h2>
-            <img src="images/<?= $product["thumbnail"] ?>" />
+            <img
+                src="images/<?= $product["thumbnail"] ?>"
+                alt="miniature de <?= $product["title"] ?>"
+            />
             <p><?= $product["short_desc"] ?></p>
             <p>
                 <?php if ($product["price"] != $product["promo_price"]): ?>

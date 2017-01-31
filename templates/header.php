@@ -12,3 +12,4 @@
             <h1>Welcome to Pantouf'land!</h1>
             <p>Le shop'O'clock</p>
         </header>
+        <hr>
